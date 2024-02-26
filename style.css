@@ -16,3 +16,28 @@
     font-size: 20px;
    
 }
+
+.adv{
+    background-color: #FEEAE9;
+    display: flex;
+    justify-content: space-between;
+    /* width: 1212px; */
+    height: 455px;
+    margin: 50px 10px;
+    padding: 0 20px;
+    
+   
+    }
+.img-adv>img{
+   width: 400px;
+   height: 378px;
+
+}
+.text-adv{
+    width: 550px;
+    height: 320px;
+}
+
+.text-adv>h1{
+    font-size: 50px;
+}
