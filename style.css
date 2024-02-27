@@ -25,7 +25,7 @@
     height: 455px;
     margin: 50px 10px;
     padding: 0 20px;
-    
+    align-items: center;
    
     }
 .img-adv>img{
@@ -40,4 +40,19 @@
 
 .text-adv>h1{
     font-size: 50px;
+}
+.text-adv>h2{
+    font-size: 50px;
+    color: #ee0760;
+}
+button{
+    background-color:#ee0760 ;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+button>a{
+    text-decoration: none;
+    color: white;
 }
