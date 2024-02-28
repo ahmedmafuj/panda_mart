@@ -1,3 +1,8 @@
+body{
+    font-family: sans-serif;
+}
+
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -55,4 +60,49 @@ button{
 button>a{
     text-decoration: none;
     color: white;
+}
+
+/* the categories section  */
+
+.categories{
+    display: flex;
+  justify-content: center;
+    
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-content:center ;
+    width: 20%;
+    height: 100px;
+    background-color: #ee0760;
+    margin: 20px;
+    border-radius: 10px;
+}
+.watch{
+    background-color: #ffbb00;
+    padding: 5px 20px;
+}
+.bag{
+    padding: 5px 20px;
+}
+.shoes{
+    /* background-color: blue; 
+    padding: 5px 20px; */
+    display: flex;
+    justify-content: center;
+}
+
+section>h1{
+    font-size: 40px;
+    padding-left: 12%;
+}
+
+.box-1{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 150px;
+    height: 200px;
+    background-color: rgb(153, 0, 0);
 }
