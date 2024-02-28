@@ -24,6 +24,7 @@ body{
 
 .adv{
     background-color: #FEEAE9;
+    border-radius: 20px;
     display: flex;
     justify-content: space-between;
     /* width: 1212px; */
@@ -86,11 +87,9 @@ button>a{
 .bag{
     padding: 5px 20px;
 }
-.shoes{
-    /* background-color: blue; 
-    padding: 5px 20px; */
-    display: flex;
-    justify-content: center;
+.shoe{
+    background-color: blue;
+    padding: 5px 20px;
 }
 
 section>h1{
@@ -98,11 +97,48 @@ section>h1{
     padding-left: 12%;
 }
 
-.box-1{
+.shoes-div{
     display: flex;
-    justify-content: space-between;
-    align-content: center;
-    width: 150px;
-    height: 200px;
-    background-color: rgb(153, 0, 0);
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 0 50px;
+    
 }
+.box-shoes{
+    margin: 20px;
+    height:430px ;
+    width: 25%;
+    border-radius: 15px;
+    
+}
+.shoes button{
+    background-color: black ;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+.shoes button>a{
+    color: white;
+}
+.shoes-1{
+    background-color: white;
+    text-align: center;
+    
+    
+}
+.shoes img{
+    height: 200px;
+    width: 90%;
+}
+
+.shoes-2{
+    background-color: white;
+    text-align: center;
+}
+
+.shoes-3{
+    background-color: white;
+    text-align: center;
+}
+ /* shoes section end  */
